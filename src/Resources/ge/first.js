@@ -20,7 +20,7 @@ export default class First extends Component {
                     <NavLink to='/en' id="en" style={{color: '#486243', background: 'white'}}>ENG</NavLink>
                 </div>
             </div>
-            <video id="video" src={video} autoPlay loop muted onContextMenu={(event) => {event.preventDefault()}}>video isn't loaded</video>
+            <video id="video" src={video} autoPlay loop muted onClick={(event) => {event.preventDefault()} onContextMenu={(event) => {event.preventDefault()}}>video isn't loaded</video>
             </div>
         )
     }
