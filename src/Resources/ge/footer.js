@@ -15,7 +15,7 @@ export default class Footer extends Component{
                     </div>
                 <img src={logo} alt="manglisi Inn" />
                 </div>
-                <p id="me">@ 2023 <a href="https://www.linkedin.com/in/beqa-dugladze-266374268/" target="_blank">ბექა დუგლაძე</a></p>
+                <p id="me">@ 2023 <a href="https://www.linkedin.com/in/beqa-dugladze-266374268/" target="_blank" rel="noreferrer">ბექა დუგლაძე</a></p>
             </div>
         )
     }
