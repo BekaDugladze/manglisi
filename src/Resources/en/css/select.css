@@ -1,0 +1,183 @@
+.select{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.select h1{
+    color: #486243;
+    font-family: 'nino';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 70px 0 30px 0;
+}
+.floor{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 30px 0;
+}
+.floor h2{
+    color: #486243;
+    font-family: 'nino';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0 25px;
+}
+.floor button{
+    color: #486243;
+    font-family: ABalaveri;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: none;
+    border: none;
+    border-radius: 75%;
+    cursor: pointer;
+    margin: 0 10px;
+    padding: 5px 5px;
+    transition: 0.4s;
+}
+.bina{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 30px 0;
+}
+.bina h3{
+    color: #486243;
+    font-family: 'nino';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0 25px;
+}
+.bina button{
+    color: #486243;
+    font-family: 'mrgvali';
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: none;
+    border: none;
+    border-radius: 75%;
+    cursor: pointer;
+    margin: 0 5px;
+    padding: 5px 5px;
+    transition: 0.3s;
+}
+.default{
+    margin: 25px 0;
+}
+.default img{
+    width: 350px;
+    border-radius: 25px;
+}
+.binebi{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 30px 0;
+}
+.binaDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin: 10px 10px;
+    border: #486243 3px solid;
+    border-radius: 25px;
+}
+.binaDiv img{
+    width: 200px;
+    height: auto;
+    border-radius: 25px;
+}
+.binaDiv h2{
+    font-family: 'nino';
+    color: #486243;
+}
+.binaDiv p{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 4px 3px;
+    font-family: 'mrgvali';
+    color: #486243;
+}
+.info button{
+    border-radius: 25px;
+    font-family: 'nino';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 4px 8px;
+    margin: 5px 5px;
+    cursor: pointer;
+}
+.shavi{
+    border: none;
+    background: #486243;
+    color: #FFF;
+}
+.tetri{
+    border: #486243 1px solid;
+    background: white;
+    color: #486243;
+}
+.gayiduli{
+    background: #EA2F2F;
+    padding: 10px;
+    margin: 10px 0 0 0;
+    border-radius: 0 0 25px 25px;
+    color: white !important;
+    font-weight: bolder;
+}
+.binaDiv a{
+    padding: 10px;
+    margin: 7px 3px 4px 3px;
+    border-radius: 0 0 25px 25px;
+    background: #486243;
+    font-family: 'nino';
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+    color: #FFF;
+}
+.clear{
+    background: #EA2F2F;
+    color: white;
+    font-size: 17px;
+    margin: 0;
+    padding: 5px;
+    border-radius: 25px;
+    cursor: pointer;
+    border: none;
+}
+
+@media screen and (min-width: 200px) and (max-width:1000px){
+    .bina{
+        flex-direction: column;
+    }
+    .binebi{
+        flex-direction: column;
+    }
+}

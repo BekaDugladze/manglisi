@@ -1,0 +1,75 @@
+.kontakti{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 25px 0;
+}
+#kontakti{
+    background: #486243;
+}
+.kontakti img {
+    width: 200px;
+    height: auto;
+}
+.kontakti h1{
+    text-align: center;
+    color: white;
+    font-family: 'nino';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.kontakti p{
+    color: white;
+    font-family: 'mrgvali';
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.kontakti a{
+    color: white;
+    font-family: 'mrgvali';
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+#me{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    text-align: center;
+    padding: 0  0 20px 0;
+    color: white;
+    font-family: 'nino';
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+#me a{
+    margin: 0 5px;
+    color: white;
+    font-family: 'nino';
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 200px) and (max-width:1000px){
+    .kontakti{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    .kontakti p{
+        padding: 0 20px;
+    }
+}

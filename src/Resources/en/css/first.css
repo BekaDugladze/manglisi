@@ -1,0 +1,82 @@
+.first{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.first-main{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+.first-main img{
+    width: 200px;
+    height: 200px;
+}
+#video{
+    width: 80%;
+    height: 100%;
+}
+.first-main ul{
+    margin: 35px 0;
+    justify-content: flex-start;
+    text-align: left;
+    padding: 0 10px;
+}
+.first-main ul li{
+    margin: 15px 0;
+    list-style: none;
+}
+.first-main ul li a{
+    text-decoration: none;
+    color: #486243;
+    font-family: 'nino';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    transition: 0.5s;
+    padding: 3px 5px;
+    border-radius: 20px;
+}
+.first-main ul li a:hover{
+    background: #486243;
+    color: white;
+}
+@font-face {
+    font-family: 'nino';
+    src: url(./bpg_nino_mtavruli_bold.ttf);
+}
+.lang{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.lang a{
+    margin: 5px 10px;
+    padding: 5px 10px;
+    font-family: 'nino';
+    text-decoration: none;
+}
+@media screen and (min-width: 200px) and (max-width:800px){
+    .first{
+        flex-direction: column;
+    }
+    .first-main{
+        margin-top: 27%;
+    }
+    .first-main img{
+        width: 150px;
+        height: 150px;
+    }
+    #video{
+        width: 100%;
+        height: auto;
+        margin: 35px 0;
+    }
+}
