@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.967c9483.css",
+    "main.js": "/static/js/main.3c15ffed.js",
+    "static/js/787.4c66224b.chunk.js": "/static/js/787.4c66224b.chunk.js",
+    "static/media/mgl.mp4": "/static/media/mgl.312dc29b71533d017850.mp4",
+    "static/media/777.png": "/static/media/777.79a17edb59719ac38a68.png",
+    "static/media/825.png": "/static/media/825.306dd94bc2ab91129aab.png",
+    "static/media/547.png": "/static/media/547.3a00d3f886f6495cda4a.png",
+    "static/media/62.png": "/static/media/62.09ea6e2bd92898f52490.png",
+    "static/media/545.png": "/static/media/545.78cfe01ede990a8d661e.png",
+    "static/media/64.png": "/static/media/64.cdd64be92bd8e2be26d8.png",
+    "static/media/724.png": "/static/media/724.4b38c196b286713b11b1.png",
+    "static/media/536.png": "/static/media/536.b7d3c5967edcdc3a43d3.png",
+    "static/media/587.png": "/static/media/587.1e5d55b4651a8286c4ca.png",
+    "static/media/513.png": "/static/media/513.d4fad7bf032fb27d6127.png",
+    "static/media/436.png": "/static/media/436.45c7fd9f69df693742ae.png",
+    "static/media/logo.png": "/static/media/logo.7943cadb35636b4b58b8.png",
+    "static/media/man.jpg": "/static/media/man.8fc03c6504ac7d41a0fc.jpg",
+    "static/media/ma.jpg": "/static/media/ma.a774c702d1eaf1578145.jpg",
+    "static/media/bpg_mrgvlovani_caps_2010.ttf": "/static/media/bpg_mrgvlovani_caps_2010.e513097f7966a38f9d9f.ttf",
+    "static/media/bpg_nino_mtavruli_bold.ttf": "/static/media/bpg_nino_mtavruli_bold.43eacc71b8fa4cfe138c.ttf",
+    "index.html": "/index.html",
+    "main.967c9483.css.map": "/static/css/main.967c9483.css.map",
+    "main.3c15ffed.js.map": "/static/js/main.3c15ffed.js.map",
+    "787.4c66224b.chunk.js.map": "/static/js/787.4c66224b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.967c9483.css",
+    "static/js/main.3c15ffed.js"
+  ]
+}
