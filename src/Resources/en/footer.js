@@ -9,7 +9,7 @@ export default class Footer extends Component{
                 <div class="kontakti">
                     <div>
                         <h1>Contact</h1>
-                        <p>Tel: <a href="tel:+995595011801">595 01 18 01</a></p>
+                        <p>Tel: <a href="tel:+995574474019">574 474 019</a></p>
                         <p>E-Mail: <a href="mailto: manglisinn@gmail.com">manglisinn@gmail.com</a></p>
                         <p>Address: <a href="#map">დაბა მანგლისი, განთიადის ქუჩა</a></p>
                     </div>
